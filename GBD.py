@@ -1,6 +1,6 @@
 import benders as bd
 import numpy as np
-import numpy.linalg as la
+import numpy.linalg as las
 
 
 import time
