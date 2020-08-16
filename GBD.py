@@ -1,7 +1,7 @@
 import benders as bd
 import numpy as np
 import numpy.linalg as la
-
+from numpy.linalg import norm
 
 import time
 def benders_solver(H, c, d, f, A, B, b, k, M, y):
